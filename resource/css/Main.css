@@ -1,0 +1,106 @@
+/* basic setup */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Oxygen', sans-serif;
+    color: #818181;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* header */
+
+header {
+    background-image: linear-gradient(rgba(28, 28, 28, 0.67), rgba(28, 28, 28, 0.67)), url("img/landp_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.Logo img {
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    left: 170px;
+}
+
+.Logo p {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    top: 72px;
+    left: 282px;
+    letter-spacing: -2px;
+}
+
+.Logo span {
+    color: #00ff00;
+}
+
+.main-nav {
+    margin-left: 900px;
+}
+
+.main-nav li {
+    float: left;
+    list-style-type: none;
+    padding-top: 95px;
+    padding-left: 35px;
+}
+
+.main-nav li a:visited,
+.main-nav li a:link {
+    text-decoration: none;
+    color: #00ff00;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+    transition: color 0.5s, border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1px solid #008900;
+    color: #008900;
+}
+
+.landPic img {
+    display: block;
+    margin: 120px auto;
+    width: 650px;
+}
+
+.landText {
+    text-align: center;
+    line-height: 40px;
+    margin-top: -60px;
+}
+
+.landText span {
+    color: #00ff00;
+}
+
+.LandBtn {}
