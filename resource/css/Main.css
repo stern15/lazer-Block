@@ -75,7 +75,7 @@ header {
 .main-nav li a:visited,
 .main-nav li a:link {
     text-decoration: none;
-    color: #00ff00;
+    color: white;
     font-size: 1.2em;
     padding-bottom: 15px;
     transition: color 0.5s, border-bottom 0.5s;
@@ -103,4 +103,26 @@ header {
     color: #00ff00;
 }
 
-.LandBtn {}
+.LandBtn {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.btn:visited,
+.btn:link {
+    text-decoration: none;
+    margin: 0 1%;
+    border: 2px solid white;
+    background-color: #242424;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    transition: color 1s, background-color 1s, border-color 1s;
+}
+
+.btn:hover,
+.btn:active {
+    color: #00ff00;
+    background-color: black;
+    border-color: #00ff00;
+}
