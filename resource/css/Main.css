@@ -83,8 +83,8 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 1px solid #008900;
-    color: #008900;
+    border-bottom: 1px solid #00ff00;
+    color: #00ff00;
 }
 
 .landPic img {
