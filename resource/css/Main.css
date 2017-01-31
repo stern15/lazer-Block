@@ -78,7 +78,7 @@ header {
     color: white;
     font-size: 1.2em;
     padding-bottom: 15px;
-    transition: color 0.5s, border-bottom 0.5s;
+    transition: color 1s, border-bottom 1s;
 }
 
 .main-nav li a:hover,
@@ -125,4 +125,30 @@ header {
     color: #00ff00;
     background-color: black;
     border-color: #00ff00;
+}
+
+
+/* feature section */
+
+.feature-sec {
+    background-image: url("img/razer_fet.png");
+    height: 100vh;
+    background-size: cover;
+    color: black;
+    padding: 100px 150px;
+}
+
+.ft1 {
+    padding-right: 300px;
+    text-align: center;
+}
+
+.ft2 {
+    padding-left: 300px;
+    text-align: center;
+}
+
+.feature-sec h3,
+.feature-sec i {
+    color: #00ff00;
 }
